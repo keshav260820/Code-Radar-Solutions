@@ -5,5 +5,5 @@ int main() {
     int y;
     char z[20];
     scanf("%s %d %s",&x,&y,&z);
-    printf("Name: %s\n Age: %d\n Hobby: %s");
+    printf("Name: %s\nAge: %d\nHobby: %s",x,y,z);
 }
