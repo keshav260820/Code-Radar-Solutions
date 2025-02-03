@@ -4,5 +4,5 @@ int main(){
 
     scanf("%f",&x,&y,&z);
     sum=x+y+z;
-    print("&,2f",sum/3)
+    print("%.2f",sum/3)
 }
