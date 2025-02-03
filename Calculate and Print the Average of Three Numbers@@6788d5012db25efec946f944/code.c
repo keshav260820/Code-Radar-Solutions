@@ -4,5 +4,6 @@ int main(){
     float sum;
     scanf("%d %d %d",&x,&y,&z);
     sum=x+y+z;
-    print("Average: %.2f",sum/3.0);
+    printf("Average: %.2f",sum/3.0);
+    return 0;
 }
