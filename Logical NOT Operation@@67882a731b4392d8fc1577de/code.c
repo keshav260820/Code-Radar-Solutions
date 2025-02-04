@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int x;
-    scanf("%d",&d);
+    scanf("%d",&x);
     if(!(x>o)){
         printf("True");
 
