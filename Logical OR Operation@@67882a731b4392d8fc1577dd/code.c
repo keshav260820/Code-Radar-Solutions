@@ -1,15 +1,11 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int x,y;
     scanf("%d %d",&x,&y);
-    if(x>0||Y>0){
+    if (x>0||Y>0){
         printf("True");
-    }else{
+    }
+    else{
         printf("False");
     }
 }
