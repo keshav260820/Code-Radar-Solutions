@@ -10,6 +10,6 @@ int main() {
     if(x&(1<<32)){
         printf("Set");
     }else{
-        printf("Not Set")
+        printf("Not Set");
     }
 }
