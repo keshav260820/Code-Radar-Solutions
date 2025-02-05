@@ -8,8 +8,8 @@ int main() {
     char x;
     scanf("%d",&x);
     if(isupper(x)){
-        printf("Uppercase");
+        printf("Uppercase",x);
     }else{
-        printf("Lowercase");
+        printf("Lowercase",x);
     }
 }
