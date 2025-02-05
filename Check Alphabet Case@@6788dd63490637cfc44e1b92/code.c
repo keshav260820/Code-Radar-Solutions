@@ -10,6 +10,6 @@ int main() {
     if(isupper(x)){
         printf("Uppercase");
     }else{
-        printf("Lowercase")
+        printf("Lowercase");
     }
 }
