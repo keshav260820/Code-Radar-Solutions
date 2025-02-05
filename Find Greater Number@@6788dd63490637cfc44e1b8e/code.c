@@ -8,8 +8,8 @@ int main() {
     int x,y;
     scanf("%d %d",&x,&y);
     if(x>y){
-        printf("%d");
+        printf("%d",x);
     }else{
-        printf("%d");
+        printf("%d",y);
     }
 }
