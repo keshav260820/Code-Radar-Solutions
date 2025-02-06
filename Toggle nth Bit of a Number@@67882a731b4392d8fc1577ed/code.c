@@ -7,5 +7,5 @@ char* welcome() {
 int main() {
     int num,n;
     scanf("%d %d",&num,&n);
-    printf("%d",num^(1>>num));
+    printf("%d",num^(1<<num));
 }
