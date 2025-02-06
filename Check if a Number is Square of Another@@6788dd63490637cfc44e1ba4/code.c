@@ -5,8 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    int x,y,check;
+    int x,y;
     scanf("%d %d",&x,&y);
-    check=(x==(y*y));
-    printf("%d",check);
+    if(x==(y*y)){
+        printf("Yes")
+    }else{
+        printf("No")
+    }
+    
 }
