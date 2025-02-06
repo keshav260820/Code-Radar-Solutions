@@ -5,8 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    int num,n,bit;
+    int num,n;
     scanf("%d %d",&num,&num);
-    bit=(num >> n) & 1;
-    printf("%d",bit);
+    if((num >> n) & 1){
+        printf("1");
+    }else{
+        printf("0")
+    }
+
 }
