@@ -7,9 +7,9 @@ char* welcome() {
 int main() {
     int x;
     scanf("%d",&x);
-    if(0<x<100){
+    if(0<x<101){
         printf("In Range");
-    }else{
+    }else if {
         printf("Out of Range");
     }
 }
