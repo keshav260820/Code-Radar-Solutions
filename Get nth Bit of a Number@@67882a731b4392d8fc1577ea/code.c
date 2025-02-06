@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int num,n;
-    scanf("%d %d",&num,&num);
+    scanf("%d %d",&num,&n);
     if((num >> n) & 1){
         printf("1");
     }else{
