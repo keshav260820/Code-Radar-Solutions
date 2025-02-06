@@ -8,9 +8,9 @@ int main() {
     int x,y;
     scanf("%d %d",&x,&y);
     if(x==(y*y)){
-        printf("Yes")
+        printf("Yes");
     }else{
-        printf("No")
+        printf("No");
     }
     
 }
