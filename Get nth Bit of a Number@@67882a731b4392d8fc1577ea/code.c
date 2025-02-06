@@ -5,7 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int num,n;
+    int num,n,bit;
     scanf("%d %d",&num,&num);
-    printf("%d",(num>>n)&1);
+    bit=(num >> n) & 1;
+    printf("%d",bit);
 }
