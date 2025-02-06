@@ -9,7 +9,9 @@ int main() {
     scanf("%d %d",&x,&y);
     if(x<y){
         printf("Profit");
-    }else{
+    }else if{
         printf("Loss");
+    }else{
+        printf("No Profit No Loss");
     }
 }
