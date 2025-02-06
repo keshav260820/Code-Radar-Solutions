@@ -21,7 +21,7 @@ int main() {
         case 6:
         printf("Saturday");
         break;
-        case 8:
+        case 7:
         printf("Sunday");
         break;
     }
