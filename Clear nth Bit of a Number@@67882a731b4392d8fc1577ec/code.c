@@ -7,5 +7,5 @@ char* welcome() {
 int main() {
     int num,n;
     scanf("%d",&num,&n);
-    printf("%d",(num>>n)&0);
+    printf("%d",num&~(n>>1));
 }
