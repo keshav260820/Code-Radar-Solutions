@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&x);
     if(0<x<101){
         printf("In Range");
-    }else if {
+    }else  {
         printf("Out of Range");
     }
 }
