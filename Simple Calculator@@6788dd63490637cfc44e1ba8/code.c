@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int x,y;
     char z;
-    svanf("%d %d %c",&x,&y,&z);
+    scanf("%d %d %c",&x,&y,&z);
     if(z='+'){
         printf("%d",x+y);
     }
