@@ -46,6 +46,6 @@ int main() {
         break;
         default:
         printf("Inavlid month");
-        break;
+        
     } 
 }
