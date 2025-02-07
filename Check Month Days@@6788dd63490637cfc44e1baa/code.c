@@ -44,5 +44,7 @@ int main() {
         case 12:
         printf("31");
         break;
+        default:
+        printf("Inavlid month")
     } 
 }
