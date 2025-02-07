@@ -10,6 +10,6 @@ int main() {
     if(x<=0){
         printf("Freezing");
     }else{
-        printf("Not Freezing");
+        printf("Above Freezing");
     }
 }
