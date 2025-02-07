@@ -3,14 +3,9 @@
 int main() {
     int x, y;
     char z;
-
-    // Read input and validate
-    if (scanf("%d %d %c", &x, &y, &z) != 3) {
+    if (scanf("%d %d %c", &x, &y, &z)) {
         printf("error\n");
-        return 1;
     }
-
-    // Perform calculation based on operator
     if (z == '+') {
         printf("%d\n", x + y);
     } 
@@ -22,14 +17,12 @@ int main() {
     } 
     else if (z == '/') {
         if (y == 0) {
-            printf("error\n");  // Prevent division by zero
+            printf("error\n"); 
         } else {
             printf("%d\n", x / y);
         }
     } 
     else {
-        printf("error\n");  // Handle invalid operator
+        printf("error\n");  
     }
-
-    return 0;
 }
