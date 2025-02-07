@@ -10,8 +10,12 @@ int main() {
     svanf("%d %d %c",&x,&y,&z);
     if(z='+'){
         printf("%d",x+y);
-}
-else if(z='-'){
-        printf(x-y);
-
+    }
+    else if(z='-'){
+            printf("%d",x-y);
+    }else if(z='*'){
+            printf("%d",x*y);
+    }else if(z='/'){
+            printf("%d",x/y);
+    }
 }
