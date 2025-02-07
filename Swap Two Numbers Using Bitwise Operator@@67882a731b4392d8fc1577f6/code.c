@@ -9,5 +9,5 @@ int main() {
     scanf("%d %d",&x,&y);
     z=y;
     i=x;
-    printf("%d",z,i);
+    printf("%d %d",z,i);
 }
