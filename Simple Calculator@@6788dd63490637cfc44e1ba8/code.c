@@ -4,7 +4,6 @@ int main() {
     int x, y;
     char z;
     if (scanf("%d %d %c", &x, &y, &z)) {
-        printf("error\n");
     }
     if (z == '+') {
         printf("%d\n", x + y);
