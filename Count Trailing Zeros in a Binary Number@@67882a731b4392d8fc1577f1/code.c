@@ -10,5 +10,6 @@ int main() {
     while(x>0&&x%2==0){
         x/=2;
         count++;
+        printf("%d",count);
     }
 }
