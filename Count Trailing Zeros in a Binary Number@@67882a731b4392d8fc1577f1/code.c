@@ -5,8 +5,8 @@ int main() {
     scanf("%d",&x);
     while(x>0&&(x%2==0)){
         count++;
-        x/=2;
+        x/=2;}
         
-printf("%d",count);
-    }
+    printf("%d",count);
+
 }
