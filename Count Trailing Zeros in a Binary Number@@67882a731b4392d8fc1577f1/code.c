@@ -7,6 +7,6 @@ int main() {
         count++;
         x/=2;
         
-    printf("%d\n",count);
+printf("%d",count);
     }
 }
