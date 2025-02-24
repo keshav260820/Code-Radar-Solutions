@@ -1,4 +1,4 @@
-
+#include<stdio.h>
 int main(){
     int i,j,space;
     for(i=5;i>=1;i--){
