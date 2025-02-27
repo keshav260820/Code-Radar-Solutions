@@ -5,4 +5,5 @@ int main(){
     for(i=1;i<=10;i++){
         printf("%d x %d = %d",x,i,x*i);
     }
+    printf("\n");
 }
