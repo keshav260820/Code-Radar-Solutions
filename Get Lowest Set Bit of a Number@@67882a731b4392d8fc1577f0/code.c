@@ -1,15 +1,21 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    int x;
-    scanf("%d",&x);
-    if(x & 1){
-        printf("1");
-    }else{
-        printf("0");
+    int num, position = 1;
+
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    if (num == 0) {
+        printf("No set bits in 0.\n");
+        return 0;
     }
+
+    while ((num & 1) == 0) {
+        num >>= 1;
+        position++;
+    }
+
+    printf("Position of the lowest set bit is %d\n", position);
+    return 0;
 }
