@@ -10,8 +10,7 @@ int main(){
             printf("*");
         }
         printf("\n");}
-    int i,j,n,space;
-    scanf("%d",&n);
+    
     for(i=n-1;i<=1;i++){
         for(space=0;space<n-i;space++){
             printf(" ");
