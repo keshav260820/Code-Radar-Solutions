@@ -1,21 +1,15 @@
 #include <stdio.h>
+#include <math.h>
+
+int lowestSetBitPosition(int n) {
+    if (n == 0) return -1;  
+
+    return log2(n & -n);  
+}
 
 int main() {
-    int num, position = 1;
-
-    printf("");
+    int num;
     scanf("%d", &num);
-
-    if (num == 0) {
-        printf("\n");
-        return 0;
-    }
-
-    while ((num & 1) == 0) {
-        num >>= 1;
-        position++;
-    }
-
-    printf("%d\n", position);
+    printf("%d\n", lowestSetBitPosition(num));
     return 0;
 }
