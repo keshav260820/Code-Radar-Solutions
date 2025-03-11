@@ -3,11 +3,11 @@
 int main() {
     int num, position = 1;
 
-    printf("Enter an integer: ");
+    printf("");
     scanf("%d", &num);
 
     if (num == 0) {
-        printf("No set bits in 0.\n");
+        printf("\n");
         return 0;
     }
 
