@@ -16,6 +16,6 @@ int main() {
         position++;
     }
 
-    printf("Position of the lowest set bit is %d\n", position);
+    printf("%d\n", position);
     return 0;
 }
