@@ -2,8 +2,9 @@
 int main(){
     int i,j,n,space,ch;
     scanf("%d",&n);
-    ch='1';
+    
     for(i=1;i<=n;i++){
+        ch='1';
         
         for(space=0;space<n-i;space++){
             printf(" ");
