@@ -8,7 +8,7 @@ int main(){
             ch=1;
             printf(" ");
         }for(j=1;j<=i;j++){
-            printf("%d",ch);
+            printf("%d ",ch);
             ch++;
             
         }printf("\n");}
