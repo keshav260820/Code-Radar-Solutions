@@ -1,4 +1,4 @@
-int isPrime(num){
+int isPrime(){
     int i,t;
     for(i=2;i<=t;i++){
         if(i==2){
