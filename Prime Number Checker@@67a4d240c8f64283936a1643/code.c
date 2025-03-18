@@ -1,10 +1,9 @@
-int isPrime(int t,int num){
-    int i;
-    for(i=2;i<=t;i++){
-        if(i==2){
-            return 1;
-        }else if(i%2!=0&&i%3!=0||i==3){
-            return 1;
-        }
-    }
+int isPrime(int num){
+  if(num<2)return 0;
+  int i;
+  for(i=2;i*i<=num;i++){
+    if(num%1==0)return 0;
+  }  return 1;
+    
+    
 }
